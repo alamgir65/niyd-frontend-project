@@ -61,3 +61,40 @@ nav img{
     height: 92vh;
     object-fit: cover;
 }
+.carousel-caption{
+    margin-bottom: 100px;
+}
+.carousel-caption .caption-title{
+    font-size: 95px;
+    font-weight: bolder;
+}
+.carousel-caption .caption-description{
+    font-size: 30px;
+    color: rgb(255, 253, 253);
+}
+
+.carousel-item{
+    transition: transform 1.5s ease-in-out;
+}
+.carousel-item-next,.carousel-item-prev,.carousel-item.active{
+    transform: scale(1.0);
+}
+
+
+
+/* Search section all styles  */
+.search-section{
+    height: 70px;
+    background: rgb(43, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-section form{
+    padding: 0 30px;
+    background: gray;
+
+}
+.search-section form button{
+    background-color: var(--primary-color);
+}
