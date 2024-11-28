@@ -16,6 +16,9 @@
     --primary-color: #00bdbb;
     --secondary-color: #656565;
 }
+nav{
+    height: 70px;
+}
 
 nav img{
     max-width: 150px;
@@ -51,3 +54,10 @@ nav img{
     color: black;
 }
 
+
+
+/* Banner section all Styles  */
+.carousel-item img{
+    height: 92vh;
+    object-fit: cover;
+}
